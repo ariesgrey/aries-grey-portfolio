@@ -1,12 +1,13 @@
 export default function manifest() {
 	return {
-		name: "Aries Grey Portfolio",
+		name: "Aries Grey Development",
 		short_name: "Aries Grey",
-		description: "Aries Grey's software engineering portfolio website",
+		description:
+			"Aries Grey Richards' software development website and portfolio.",
 		start_url: "/",
 		display: "standalone",
-		background_color: "#f5f5f6",
-		theme_color: "#125E5E",
+		background_color: "#e6e7e7",
+		theme_color: "#008583",
 		icons: [
 			{
 				src: "/icon-192.png",
