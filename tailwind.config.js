@@ -50,6 +50,13 @@ module.exports = {
 				sans: ["var(--font-syne)", ...defaultTheme.fontFamily.sans],
 				mono: ["var(--font-space-mono)", ...defaultTheme.fontFamily.mono],
 			},
+			transitionDuration: {
+				400: "400ms",
+			},
+			aria: {
+				"current-page": "current='page'",
+				"current-false": "current='false'",
+			},
 		},
 	},
 	plugins: [],
