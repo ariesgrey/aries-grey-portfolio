@@ -12,7 +12,10 @@ module.exports = {
 		screens: {
 			xs: "360px",
 			sm: "480px",
-			...defaultTheme.screens,
+			md: "768px",
+			lg: "1024px",
+			xl: "1280px",
+			"2xl": "1540px",
 		},
 		colors: {
 			transparent: "transparent",
