@@ -1,5 +1,5 @@
 import { classNames } from "@/utils/classNames";
-import Logo from "./Logo";
+import LogoFlat from "./Logos/LogoFlat";
 
 export default function MenuButton({ menuOpen, setMenuOpen }) {
 	return (
@@ -16,8 +16,8 @@ export default function MenuButton({ menuOpen, setMenuOpen }) {
 			<div className="w-full h-full relative">
 				{/* Open menu (logo icon) */}
 				<>
-					<span class="sr-only">Open menu</span>
-					<Logo
+					<span className="sr-only">Open menu</span>
+					<LogoFlat
 						className={classNames(
 							menuOpen
 								? "opacity-0 motion-safe:rotate-90"
@@ -28,7 +28,7 @@ export default function MenuButton({ menuOpen, setMenuOpen }) {
 				</>
 				{/* Close menu (minus icon) */}
 				<>
-					<span class="sr-only">Close menu</span>
+					<span className="sr-only">Close menu</span>
 					<div
 						className="absolute inset-0 h-6 w-6 lg:h-8 lg:w-8 xl:h-9 xl:w-9 2xl:h-10 2xl:w-10 flex justify-center items-center"
 						aria-hidden="true">

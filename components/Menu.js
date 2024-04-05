@@ -4,7 +4,7 @@ import { useState, Fragment } from "react";
 import { Transition, Dialog } from "@headlessui/react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Logo from "./Logo";
+import LogoFlat from "./Logos/LogoFlat";
 import MenuButton from "./MenuButton";
 
 export default function Menu({ navigation }) {
@@ -58,7 +58,7 @@ export default function Menu({ navigation }) {
 												className="flex items-center gap-x-2 lg:gap-x-2.5 xl:gap-x-3 2xl:gap-x-4 drop-shadow aria-current-page:text-gray-200 aria-current-false:text-gray-light aria-current-false:hover:text-gray-200 aria-current-false:motion-safe:hover:translate-x-2 transition-all ease-in-out duration-300 focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-gray-light focus-visible:outline-offset-4"
 												aria-current={pathname === item.href ? "page" : false}>
 												{pathname === item.href ? (
-													<Logo className="h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 2xl:h-8 2xl:w-8" />
+													<LogoFlat className="h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 2xl:h-8 2xl:w-8" />
 												) : (
 													<div
 														className="h-3 w-3 md:h-4 md:w-4 lg:h-5 lg:w-5 xl:h-6 xl:w-6 2xl:h-8 2xl:w-8 flex justify-center items-center"

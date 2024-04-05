@@ -21,6 +21,27 @@ export const metadata = {
 	title: "Aries Grey Development",
 	description:
 		"Aries Grey Richards' software development website and portfolio.",
+	icons: {
+		icon: [
+			{
+				media: "(prefers-color-scheme: light)",
+				url: "/favicon-light.ico",
+			},
+			{
+				media: "(prefers-color-scheme: light)",
+				url: "/icon-light.png",
+			},
+			{
+				media: "(prefers-color-scheme: dark)",
+				url: "/favicon-dark.ico",
+			},
+			{
+				media: "(prefers-color-scheme: dark)",
+				url: "/icon-dark.png",
+			},
+		],
+		apple: "/apple-icon.png",
+	},
 };
 
 // Navigation
